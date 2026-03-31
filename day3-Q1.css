@@ -1,0 +1,87 @@
+div {
+  display: flex;
+  width: 800px;
+  height: 200px;
+  justify-content: center;
+}
+
+div {
+  transition: all 1s ease-in-out;
+}
+
+div:hover img {
+  transform: rotateX(360deg);
+}
+
+@keyframes moving-kitty {
+  0% {
+    transform: scale(3);
+  }
+  35% {
+    transform: scale(3);
+    transform: matrix3d(
+      -0.6,
+      1.34788,
+      0,
+      0,
+      -2.34788,
+      -0.6,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      10,
+      1
+    );
+  }
+  40% {
+    opacity: 0;
+    transform: scale(3);
+    transform: matrix3d(
+      0.5,
+      0,
+      -0.866025,
+      0,
+      0.595877,
+      1.2,
+      -1.03209,
+      0,
+      0.866025,
+      0,
+      0.5,
+      0,
+      25.9808,
+      0,
+      15,
+      1
+    );
+  }
+  45% {
+    opacity: 0.5;
+    transform: scale(3);
+  }
+  50% {
+    opacity: 1;
+    display: none;
+    transform: scale(3);
+  }
+  55% {
+    opacity: 0;
+    transform: scale(3);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+img {
+  width: 100px;
+  animation: moving-kitty 5s infinite alternate;
+}
