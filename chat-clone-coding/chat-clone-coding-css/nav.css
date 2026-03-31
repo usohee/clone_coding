@@ -1,0 +1,35 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav-bar-img {
+  width: 120px;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0;
+}
+
+.nav-bar-img img {
+  width: 50px;
+}
+
+.nav-bar__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 0 230px 0 20px;
+}
+
+.nav-bar__price {
+  font-weight: bold;
+  margin-top: 6px;
+}

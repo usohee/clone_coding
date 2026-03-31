@@ -1,0 +1,13 @@
+@import "header.css";
+@import "nav.css";
+@import "main.css";
+@import "article.css";
+@import "figure.css";
+@import "footer.css";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+}

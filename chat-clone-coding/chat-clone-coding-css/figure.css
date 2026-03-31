@@ -1,0 +1,7 @@
+.alarm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  color: grey;
+}
