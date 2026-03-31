@@ -1,0 +1,11 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+.name {
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
